@@ -1,0 +1,176 @@
+# Qt项目相关
+*.pro.user
+*.pro.user.*
+*.autosave
+Makefile*
+*.qm
+*.qrc.depends
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.moc
+*.obj
+*.pch
+
+# 构建目录
+build-*/
+debug/
+release/
+x64/
+x86/
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.o
+*.obj
+
+# Qt Creator生成的临时文件
+*.pro.user
+*.pro.user.*
+*.pro.user.*.*
+*.pro.user.*.*.*
+CMakeLists.txt.user*
+cmake-build-*/
+
+# Qt资源系统
+*.qrc.depends
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 编译输出
+*.ilk
+*.pdb
+*.idb
+*.exp
+*.manifest
+*.lib
+*.a
+*.dll
+
+# 日志文件
+*.log
+*.trace
+
+# 项目特定
+appicon.rc  # 如果是Windows资源文件且包含敏感信息
+*.exe       # 可执行文件
+Webserver   # 编译后的二进制文件（根据您的.pro文件中的TARGET）
+
+# 用户配置和数据
+settings.ini
+config.ini
+*.db
+*.sqlite
+*.sqlite3
+
+# 依赖库
+libs/
+third_party/
+external/
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# 环境文件
+.env
+.env.local
+
+# 证书和密钥
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+
+# 打包文件
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 覆盖文件
+*.orig
+*.rej
+
+# Visual Studio编译文件
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.suo
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+ipch/
+*.ipch
+*.tlog
+*.lastbuildstate
+build/
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+x64/
+Win32/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+compile_commands.json
+
+# 二进制资源
+*.res
+*.ico
+
+# Qt安装和运行时的临时文件
+qrc_*.cpp
+moc_*.cpp
+ui_*.h
+*.moc
+*.qrc.depends

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.ico</file>
+        <file>mic0.png</file>
+        <file>mic1.png</file>
+        <file>mic2.png</file>
+        <file>mic3.png</file>
+        <file>mic4.png</file>
+        <file>mic5.png</file>
+        <file>mic6.png</file>
+    </qresource>
+</RCC>
