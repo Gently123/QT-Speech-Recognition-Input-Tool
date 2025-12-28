@@ -29,9 +29,9 @@
 ## 服务端参考
 本项目仅包含客户端功能，服务端可参考 [FunASR WebSocket 服务器](https://github.com/modelscope/FunASR/tree/main/runtime/websocket)。
 - **高性能服务器：调用阿里语音识别基于FunASR的WebSocket服务器，ONNX Runtime 支持主流跨平台操作系统，覆盖桌面、服务器、移动及嵌入式设备，使用docker进行部署
-多模型支持：VAD+ASR+PUNC+ITN完整处理链
-热词增强：支持FST/NN两种热词增强技术
-多语言识别：中英文语音识别支持
+- **多模型支持：VAD+ASR+PUNC+ITN完整处理链
+- **热词增强：支持FST/NN两种热词增强技术
+- **多语言识别：中英文语音识别支持
 ---
 
 本项目旨在提供高效、便捷的语音识别解决方案，适用于多种场景与平台。
